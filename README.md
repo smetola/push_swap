@@ -1,3 +1,7 @@
+<h1 align="center">
+  🚀 Completado, pendiente de subir 🚀
+</h1>
+
 # push_swap
 
 **push_swap** es un proyecto de algoritmia que se centra en ordenar un conjunto de datos utilizando stacks y un conjunto limitado de instrucciones. El reto es conseguir la ordenación más eficiente posible con el menor número de movimientos.
