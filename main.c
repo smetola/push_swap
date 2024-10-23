@@ -6,7 +6,7 @@
 /*   By: sanmetol <sanmetol@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 15:08:37 by sanmetol          #+#    #+#             */
-/*   Updated: 2024/10/02 17:41:32 by sanmetol         ###   ########.fr       */
+/*   Updated: 2024/10/23 16:30:05 by sanmetol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(int argc, char **argv)
 	a = NULL;
 	b = NULL;
 	if (argc < 2)
-		return (write(2, "Error\n", 6), 1);
+		return (0);
 	joined_args = join_args(argc, argv);
 	if (!joined_args || joined_args[0] == '\0' || all_spaces(joined_args))
 		return (free(joined_args), write(2, "Error\n", 6), 1);
